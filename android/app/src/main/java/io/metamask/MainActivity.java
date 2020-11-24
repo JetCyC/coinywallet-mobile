@@ -26,7 +26,7 @@ public class MainActivity extends ReactFragmentActivity {
 	*/
 	@Override
 	protected String getMainComponentName() {
-		return "MetaMask";
+		return "CoinyWallet";
 	}
 
 	// Override onStart, onNewIntent:
@@ -46,7 +46,7 @@ public class MainActivity extends ReactFragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		SplashScreen.show(this); 
+		SplashScreen.show(this);
 		super.onCreate(null);
 	}
 	@Override
