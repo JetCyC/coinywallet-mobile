@@ -1,4 +1,4 @@
-package io.metamask;
+package io.coinywallet;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="io.metamask"
+	package="io.coinywallet"
 	xmlns:tools="http://schemas.android.com/tools"
 >
 
@@ -10,7 +10,7 @@
 	<uses-sdk tools:overrideLibrary="com.tectiv3.aes" />
 
 	<application
-		android:name=".MainApplication"
+		android:name="io.coinywallet.MainApplication"
 		android:label="@string/app_name"
 		android:icon="@mipmap/ic_launcher"
 		android:roundIcon="@mipmap/ic_launcher_round"
@@ -24,7 +24,7 @@
 	>
 		<activity
 			android:launchMode="singleTask"
-			android:name=".SplashActivity"
+			android:name="io.coinywallet.SplashActivity"
 			android:theme="@style/SplashTheme"
 			android:label="@string/app_name"
 		>
@@ -34,7 +34,7 @@
 		</activity>
 		<activity
 			android:launchMode="singleTask"
-			android:name=".MainActivity"
+			android:name="io.coinywallet.MainActivity"
 			android:label="@string/app_name"
 			android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
 			android:windowSoftInputMode="adjustResize"
@@ -126,7 +126,7 @@
 
 		<provider
 			android:name="androidx.core.content.FileProvider"
-			android:authorities="io.metamask.provider"
+			android:authorities="io.coinywallet.provider"
 			android:grantUriPermissions="true"
 			android:exported="false"
 		>

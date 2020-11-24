@@ -1,4 +1,4 @@
-package io.metamask.nativeModules;
+package io.coinywallet.nativeModules;
 
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -20,7 +20,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import com.facebook.react.bridge.Promise;
 
 public class RCTAnalytics extends ReactContextBaseJavaModule {
 

@@ -1,4 +1,4 @@
-package io.metamask;
+package io.coinywallet;
 
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactFragmentActivity;
@@ -6,7 +6,7 @@ import com.facebook.react.ReactRootView;
 import com.mixpanel.android.mpmetrics.MixpanelAPI;
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
-import io.branch.rnbranch.*;
+import io.branch.rnbranch.RNBranchModule;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;

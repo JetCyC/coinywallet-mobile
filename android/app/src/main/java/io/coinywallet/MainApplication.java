@@ -1,4 +1,4 @@
-package io.metamask;
+package io.coinywallet;
 
 import com.facebook.react.ReactApplication;
 import com.cmcewen.blurview.BlurViewPackage;
@@ -8,14 +8,14 @@ import com.facebook.react.ReactInstanceManager;
 import com.airbnb.android.react.lottie.LottiePackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import io.branch.rnbranch.RNBranchModule;
-import io.metamask.nativeModules.RCTAnalyticsPackage;
+import io.coinywallet.nativeModules.RCTAnalyticsPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import cl.json.ShareApplication;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import io.metamask.nativeModules.PreventScreenshotPackage;
+import io.coinywallet.nativeModules.PreventScreenshotPackage;
 import android.webkit.WebView;
 
 import androidx.multidex.MultiDexApplication;
@@ -78,7 +78,7 @@ public class MainApplication extends MultiDexApplication implements ShareApplica
     		   We use reflection here to pick up the class that initializes Flipper,
     		  since Flipper library is not available in release mode
     		  */
-    		  Class<?> aClass = Class.forName("io.metamask.ReactNativeFlipper");
+    		  Class<?> aClass = Class.forName("io.coinywallet.ReactNativeFlipper");
     		  aClass
     		      .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
     		      .invoke(null, context, reactInstanceManager);
