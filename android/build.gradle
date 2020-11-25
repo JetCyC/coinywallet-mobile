@@ -10,6 +10,7 @@ buildscript {
 		kotlinVersion = "$kotlin_version"
 	}
 	repositories {
+		//maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
 		google()
 		jcenter()
 	}
@@ -24,6 +25,7 @@ buildscript {
 
 allprojects {
 	repositories {
+		//maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
 		mavenLocal()
 		maven {		// Replace AAR from original RN with AAR from react-native-v8
 			url("$rootDir/../node_modules/react-native-v8/dist")
