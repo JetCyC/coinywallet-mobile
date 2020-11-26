@@ -128,6 +128,7 @@ const OnboardingRootNav = createStackNavigator(
  * Main app navigator which handles all the screens
  * after the user is already onboarded
  */
+//TODO CYC
 const HomeNav = createDrawerNavigator(
 	{
 		Main: {

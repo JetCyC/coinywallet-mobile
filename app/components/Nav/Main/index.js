@@ -697,7 +697,7 @@ const Main = props => {
 		};
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
-
+	//TODO CYC
 	return (
 		<React.Fragment>
 			<View style={styles.flex}>
